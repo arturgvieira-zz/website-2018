@@ -1,0 +1,18 @@
+.Hero {
+    height: 500px;
+    opacity: 0.85;
+    background: url('./resources/background.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    .Hero {
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Hero {
+        height: 200px;
+    }
+}

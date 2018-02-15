@@ -1,0 +1,40 @@
+.Header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Header header {
+    padding: 20px 25px;
+    flex-basis: 100%;
+    max-width: 1150px;
+    height: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: white;
+    border-top: #00bcd4 3px solid;
+    border-bottom: #00bcd4 1px solid;
+}
+
+.Header header .branding {
+    display: flex;
+}
+
+.Header header .branding h2 {
+    color: #007485;
+}
+
+.Header header .heading {
+    align-self: center;
+}
+
+@media screen and (max-width: 500px) {
+    .Header header .heading {
+        display: none;
+    }
+}
