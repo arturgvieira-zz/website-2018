@@ -80,11 +80,11 @@ class Splash extends Component {
                     </article>
                     <article className="content">
                         <h3>
-                            Currently, I have been developing GraphQL servers.
+                            Currently, I have been developing GraphQL APIs.
                         </h3>
                         <p>
                             Recently I have been learning to write a new type of
-                            server. More to follow.
+                            API. More to follow.
                         </p>
                         <img src={graphql} alt="GraphQL logo" />
                     </article>

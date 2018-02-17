@@ -1,18 +1,64 @@
 .Hero {
-    height: 500px;
-    opacity: 0.85;
-    background: url('./resources/background.jpeg') no-repeat center;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background: url('./resources/background_low_profile.jpg') no-repeat center center;
     background-size: cover;
+}
+
+.Hero .portrait {
+    align-self: center;
+    height: 200px;
+    width: 200px;
+    margin: 25px 50px;
+    border-radius: 50%;
+    background: url('./resources/profile.jpg') no-repeat 50% 35%;
+    background-size: cover;
+    border: 2px solid white;
+}
+
+.Hero .welcome {
+    background: white;
+    height: 50px;
+    width: 550px;
+    margin: 25px 25px;
+    padding: 15px 35px;
+    border-bottom: #05e0ff 2px solid;
 }
 
 @media screen and (max-width: 1000px) {
     .Hero {
-        height: 375px;
+        height: 200px;
+    }
+
+    .Hero .welcome {
+        width: 400px;
+    }
+
+    .Hero .portrait {
+        height: 100px;
+        width: 100px;
     }
 }
 
 @media screen and (max-width: 750px) {
     .Hero {
-        height: 200px;
+        height: 100px;
+    }
+
+    .Hero .welcome {
+        height: 15px;
+        width: 200px;
+    }
+
+    .Hero .portrait {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Hero .portrait {
+        display: none;
     }
 }

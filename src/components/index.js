@@ -4,7 +4,6 @@ import './main.css';
 // Components
 import Header from './header';
 import Splash from './pages/splash';
-import About from './pages/about';
 
 export default class Main extends Component {
     state = {};
@@ -28,7 +27,6 @@ export default class Main extends Component {
                     {this.state.hasError && this.warningBanner()}
                     <Header />
                     <Route exact path="/" component={() => <Splash />} />
-                    <Route path="/about" component={() => <About />} />
                 </div>
             </Router>
         );
