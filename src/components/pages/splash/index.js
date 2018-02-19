@@ -15,7 +15,10 @@ class Splash extends Component {
                 <Hero />
                 <section className="splash-main-content">
                     <article className="headings">
-                        <h2>I am a Web Application Developer</h2>
+                        <h2>
+                            I am a Polyglot Developer. I write APIs and Web
+                            Applications.
+                        </h2>
                         <h3>This is my stack.</h3>
                         <img
                             src={stack}
@@ -48,9 +51,8 @@ class Splash extends Component {
                             Soon after building my first API I started to look
                             for another language to work with. One that allowed
                             me to program for the web. I chose JavaScript and
-                            started to build web solutions that had rich user
-                            interfaces. Web portals for applications, and it is
-                            what I enjoy doing the most.
+                            started to build web solutions that have rich user
+                            interfaces. It is what I enjoy doing the most.
                         </p>
                     </article>
                     <article className="content">
@@ -79,9 +81,7 @@ class Splash extends Component {
                         </p>
                     </article>
                     <article className="content">
-                        <h3>
-                            Currently, I have been developing GraphQL APIs.
-                        </h3>
+                        <h3>Currently, I have been developing GraphQL APIs.</h3>
                         <p>
                             Recently I have been learning to write a new type of
                             API. More to follow.
