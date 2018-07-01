@@ -14,10 +14,11 @@ class Splash extends Component {
                 <Hero />
                 <section className="splash-main-content">
                     <article className="headings">
-                        <h3>This is my current professional technology stack.
-                            These are technologies which I am familiar with 
-                            and use day to day to build servers, clients
-                            or both. 
+                        <h3>
+                            In the picture below, is my current professional
+                            technology stack. These are technologies which I am
+                            familiar with and use day to day to build servers,
+                            clients or both.
                         </h3>
                         <img
                             src={stack}
@@ -37,75 +38,90 @@ class Splash extends Component {
                         </p>
                         <p>
                             It was the language of choice for most of the
-                            academic programs which I was interested in. I fell
-                            in love with the simple syntax and comprehensive
-                            language API documentation.
+                            academic programs. I fell in love with the simple
+                            syntax and comprehensive language API documentation.
                         </p>
                         <p>
-                            I got my first job as a software developer as a 
+                            I got my first job as a software developer as a
                             sophomore in college with a Fortune 500 company.
                         </p>
                         <p>
                             Soon after building my first API I started to look
-                            for another language to work with. One that allowed
-                            me to program for the web. I chose JavaScript and
-                            started to build web solutions that have rich user
-                            interfaces. It is what I enjoy doing the most.
+                            for another language. One that allowed me to program
+                            for the web. I chose JavaScript and began to develop
+                            web solutions that have rich user interfaces. It is
+                            what I enjoy doing the most.
                         </p>
                     </article>
                     <article className="content">
                         <h3>Along the way I found JavaScript.</h3>
                         <p>
-                            It changed how I approached problems, it changed me
+                            It changed how I approached problems; it changed me
                             as a developer. It's the language with the most
                             activity today, the language of the web.
                         </p>
                         <p>
                             I started using JavaScript in 2012 when I needed a
                             user interface component to process JSON, that was
-                            when I started using jQuery and it's AJAX function.
-                            Once I knew more about JavaScript I started to keep
+                            when I started using jQuery, and it's AJAX function.
+                            Once I knew more about JavaScript, I began to keep
                             a set of frameworks which I used day to day.
                             Although I use React JS today for most of my user
                             interface needs, I have used a wide selection of the
                             available MVC frameworks.
                         </p>
                         <p>
-                            I am experienced with Angular
-                            and KnockoutJS as well as jQuery. Although I have
-                            experience with these other libraries I prefer to
-                            use ReactJS, in a NodeJS development environment.
+                            I have knowledge in Angular and KnockoutJS as well
+                            as jQuery. I will say that knowing these other
+                            libraries; I usually prefer to use ReactJS, in a
+                            NodeJS development environment.
                         </p>
                     </article>
                     <article className="content">
                         <h3>Currently, I have been developing GraphQL APIs.</h3>
                         <p>
-                            In 2017 I started to learn about a new API spec. 
-                            GraphQL is an API specification designed by Facebook.
-                            I have used GraphQL, now for some time to build server
-                            APIs. It is very well suited for progressive applications.
+                            In 2017 I started to learn about a new API spec.
+                            GraphQL is an API specification designed by
+                            Facebook. I have used GraphQL, now for some time to
+                            build server APIs. It is very well suited for
+                            Progressive applications.
                         </p>
                         <p>
-                            I use Apollo Server / Client to design and develop these GraphQL
-                            Web Applications.
+                            I use Apollo Server / Client to design and develop
+                            these GraphQL Web Applications.
                         </p>
                         <p>
-                            I prefer GraphQL over REST based APIs, this is due to the
-                            great improvement that GraphQL APIs pose in the development
-                            of scalable and maintainable servers.
+                            I prefer GraphQL over REST APIs, and this is due to
+                            the significant improvement that GraphQL APIs pose
+                            in the development of scalable and maintainable
+                            servers.
                         </p>
                         <p>
-                            GraphQL APIs come with the best features of REST built into the
-                            specification and provide the developer the ability to focus on 
-                            the domain requirements.
+                            GraphQL APIs come with the best features of REST
+                            built into the specification and provide the
+                            developer the ability to focus on the domain
+                            requirements.
                         </p>
                     </article>
                 </section>
                 <section class="filler content">
-                    <h3>I follow the standards,</h3>
-                    <p>where there are any and design patterns or best practices otherwise. Also, I try to write only the necessary parts and use appropriate technological tools for the job. By using the right language and API for example.</p>
-                    <h3> ... and also enjoy innovation.</h3>
-                    <p>I prefer functional programming paradigms to object-oriented or procedural designs. I tend to use functional design patterns and stateful and immutable data objects via pure functions. Where appropriate I prefer to develop using test-driven development methods. When available, I perform best, in an Agile and iterative development team.</p>
+                    <h3>I follow the standards.</h3>
+                    <p>
+                        If there are standards, and design patterns or best
+                        practices otherwise. Also, I try to write only the
+                        necessary parts and use appropriate technological tools
+                        for the job.
+                    </p>
+                    <h3>I enjoy innovation.</h3>
+                    <p>
+                        I prefer functional programming paradigms and
+                        object-oriented programing to procedural designs. I tend
+                        to use useful design patterns and stateful and immutable
+                        data objects via pure functions. Where appropriate I
+                        prefer to develop using test-driven development methods.
+                        When available, I perform best, in an Agile and
+                        iterative development team.
+                    </p>
                 </section>
                 <section className="filler">
                     <h3>I am currently looking for new opportunities.</h3>
