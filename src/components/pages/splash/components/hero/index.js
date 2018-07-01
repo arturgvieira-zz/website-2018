@@ -6,7 +6,7 @@ class Hero extends Component {
         return (
             <section role="presentation" className="Hero elevation-3dp">
                 <div className="welcome elevation-1dp">
-                    <h1>I am a Polyglot Developer. I write APIs and Web Applications</h1>
+                    <h1>I am a Polyglot Developer. I write APIs and Web Applications.</h1>
                 </div>
             </section>
         );
