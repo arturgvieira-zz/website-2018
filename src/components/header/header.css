@@ -17,7 +17,7 @@
     align-items: flex-start;
     justify-content: space-between;
     background: white;
-    border-bottom: #00bcd4 1px solid;
+    border-bottom: #002366 1px solid;
 }
 
 .Header header .branding {
@@ -25,7 +25,7 @@
 }
 
 .Header header .branding h2 {
-    color: #007485;
+    color: #002366;
 }
 
 .Header header .heading {

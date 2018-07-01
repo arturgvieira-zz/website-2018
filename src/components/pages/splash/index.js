@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './splash.css';
-import stack from './resources/stack_1200.jpg';
-import graphql from './resources/graphql.png';
+import stack from './resources/stack_1200.png';
 import linkedin from './resources/linkedin.png';
 import github from './resources/github.png';
 import twitter from './resources/twitter.png';
@@ -15,11 +14,11 @@ class Splash extends Component {
                 <Hero />
                 <section className="splash-main-content">
                     <article className="headings">
-                        <h2>
-                            I am a Polyglot Developer. I write APIs and Web
-                            Applications.
-                        </h2>
-                        <h3>This is my stack.</h3>
+                        <h3>This is my current professional technology stack.
+                            These are technologies which I am familiar with 
+                            and use day to day to build servers, clients
+                            or both. 
+                        </h3>
                         <img
                             src={stack}
                             className="splash-main-image"
@@ -43,9 +42,8 @@ class Splash extends Component {
                             language API documentation.
                         </p>
                         <p>
-                            I ended up never finishing college, I got my first
-                            job as a software developer as a sophomore in
-                            college with a Fortune 500 company.
+                            I got my first job as a software developer as a 
+                            sophomore in college with a Fortune 500 company.
                         </p>
                         <p>
                             Soon after building my first API I started to look
@@ -73,8 +71,7 @@ class Splash extends Component {
                             available MVC frameworks.
                         </p>
                         <p>
-                            I use Redux for state management in the user
-                            interfaces I build. I am experienced with Angular
+                            I am experienced with Angular
                             and KnockoutJS as well as jQuery. Although I have
                             experience with these other libraries I prefer to
                             use ReactJS, in a NodeJS development environment.
@@ -83,11 +80,32 @@ class Splash extends Component {
                     <article className="content">
                         <h3>Currently, I have been developing GraphQL APIs.</h3>
                         <p>
-                            Recently I have been learning to write a new type of
-                            API. More to follow.
+                            In 2017 I started to learn about a new API spec. 
+                            GraphQL is an API specification designed by Facebook.
+                            I have used GraphQL, now for some time to build server
+                            APIs. It is very well suited for progressive applications.
                         </p>
-                        <img src={graphql} alt="GraphQL logo" />
+                        <p>
+                            I use Apollo Server / Client to design and develop these GraphQL
+                            Web Applications.
+                        </p>
+                        <p>
+                            I prefer GraphQL over REST based APIs, this is due to the
+                            great improvement that GraphQL APIs pose in the development
+                            of scalable and maintainable servers.
+                        </p>
+                        <p>
+                            GraphQL APIs come with the best features of REST built into the
+                            specification and provide the developer the ability to focus on 
+                            the domain requirements.
+                        </p>
                     </article>
+                </section>
+                <section class="filler content">
+                    <h3>I follow the standards,</h3>
+                    <p>where there are any and design patterns or best practices otherwise. Also, I try to write only the necessary parts and use appropriate technological tools for the job. By using the right language and API for example.</p>
+                    <h3> ... and also enjoy innovation.</h3>
+                    <p>I prefer functional programming paradigms to object-oriented or procedural designs. I tend to use functional design patterns and stateful and immutable data objects via pure functions. Where appropriate I prefer to develop using test-driven development methods. When available, I perform best, in an Agile and iterative development team.</p>
                 </section>
                 <section className="filler">
                     <h3>I am currently looking for new opportunities.</h3>

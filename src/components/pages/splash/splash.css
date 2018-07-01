@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     margin: 50px 1%;
-    border-bottom: #05e0ff 2px solid;
+    border-bottom: #002366 2px solid;
 }
 
 .Splash .splash-main-image {
@@ -17,7 +17,7 @@
 
 .Splash .splash-content-container .content {
     flex-basis: 30%;
-    border-bottom: #05e0ff 2px solid;
+    border-bottom: #002366 2px solid;
     text-align: justify;
 }
 
@@ -37,6 +37,15 @@
     height: 28px;
     width: auto;
 }
+
+.Splash .filler.content {
+    text-align: left;
+    flex-basis: 100%;
+    min-height: 300px;
+    margin: 100px auto;
+    border-bottom: #002366 2px solid;
+}
+
 
 @media screen and (max-width: 1000px) {
     .Splash .splash-content-container {
